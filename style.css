@@ -701,6 +701,14 @@ p {
 .social, .twitter, .facebook, .dribbble, .insta {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding: 10px;
+}    
+
+@media (max-width: 500px) {
+    .social, .twitter, .facebook, .dribbble, .insta {
+        display: flex;
+        justify-content: center;
+    }   
 }
 
 h2 {
